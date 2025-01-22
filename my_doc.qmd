@@ -1,0 +1,21 @@
+---
+title: "Reading objects from a {targets} pipeline"
+author: "Aldo FERNANDEZ"
+date: "today"
+format: html
+---
+
+
+This document loads three plots that were made using a `{targets}` pipeline.
+
+```{r}
+targets::tar_read(colonies_plot)
+```
+
+```{r}
+targets::tar_read(bee_density)
+```
+
+```{r}
+targets::tar_read(correlation_honey)
+```

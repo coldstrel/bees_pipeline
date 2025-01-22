@@ -2,12 +2,14 @@ name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iterat
 honey_data|stem|4a072d82e83d050d|3d8e5f857c63cf80|f0d1238cf1dea7cb|-1028066376||t20109.5397189319s|s20320b|20320|rds|local|vector|||0.05||
 colonies_plot|stem|2a9039ee5bd1074b|d26c2ab19152e0e7|df7eeb7cf9ca0f16|-1099729186||t20109.549222001s|s112890b|112890|rds|local|vector|||0.06||
 colonies_img|stem|4e93d5f426a1b9b9|4e448b2c167580bc|62cc4c06845d2985|562131211|fig/colonies_plot.png|t20109.6553085763s|s153754b|153754|file|local|vector|||0.81||
-get_data|function|a57ada2b0fae502a
-save_plot|function|d11e9cf836f47147
-make_plot|function|9f87211f6d4f959b
-corr_bees|function|6f5d1a4fed4d3c93
-plot_bee_density|function|9967d46bc0285f53
 correlation_honey|stem|24501ce01a5e1f5d|753869317f181869|61a86059ed07d51f|673593778||t20109.6573451775s|s222638b|222638|rds|local|vector|||0.12||
 bee_density|stem|1126e3d87a822c22|517645365c600b8d|1b4246972f2b5914|1806142294||t20109.6573478097s|s113136b|113136|rds|local|vector|||0.14|Using size aesthetic for lines was deprecated in ggplot2 3.4.0.ℹ Please use linewidth instead.|
 correlation_honey_img|stem|0b8a983c7874c753|f7b6d4e8fc63c620|237c66a1482eccfb|40701735|fig/corr_plot.png|t20109.6573681977s|s561876b|561876|file|local|vector|||1.73||
 bee_density_img|stem|0e16b9de8834772a|ddf3fb7ddc23c5bc|afdd40be0926cd4a|-1538577699|fig/density_plot.png|t20109.657372739s|s133641b|133641|file|local|vector|||0.36||
+get_data|function|a57ada2b0fae502a
+.Random.seed|object|56033ad93a1110f6
+save_plot|function|d11e9cf836f47147
+make_plot|function|9f87211f6d4f959b
+corr_bees|function|6f5d1a4fed4d3c93
+plot_bee_density|function|9967d46bc0285f53
+my_doc|stem|5b35dea21295ce6b|a4cf9e93ee39d4e8|725eb3bd3999b674|-798192088|my_doc.html*my_doc_files*my_doc.qmd|t20110.518436047s|s969048b|969048|file|local|vector|||10.26||
